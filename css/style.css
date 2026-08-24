@@ -1180,7 +1180,7 @@ html {
     }
     .hero {
         min-height: 70vh;
-        background-image: url('../img/header-bg.jpeg');
+        background-image: url('../img/header-bg-mobile.jpeg');
         background-position: center top;
     }
 
