@@ -1178,6 +1178,7 @@ html {
     .contact .row .map {
         height: 30rem;
     }
+    
     .hero {
         min-height: 70vh;
         background-image: url('../img/header-bg-mobile.jpeg');
