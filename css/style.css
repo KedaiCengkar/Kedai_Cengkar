@@ -1061,6 +1061,10 @@ html {
     html {
         font-size: 62.5%;
     }
+    .hero {
+        min-height: 85vh;
+        background-position: center top;
+    }
 
     #hamburger-menu {
         display: inline-block;
@@ -1173,6 +1177,11 @@ html {
 @media (max-width: 508px) {
     .contact .row .map {
         height: 30rem;
+    }
+    .hero {
+        min-height: 70vh;
+        background-image: url('../img/header-bg.jpeg');
+        background-position: center top;
     }
 
     .menu-gallery {
