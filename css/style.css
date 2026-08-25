@@ -1278,9 +1278,11 @@ html {
     }
     
     .menu-gallery {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.8rem;
-        max-width: 700px;
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
     }
 
     .menu-gallery img {
