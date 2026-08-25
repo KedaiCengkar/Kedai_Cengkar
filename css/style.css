@@ -1286,7 +1286,8 @@ html {
     }
 
     .menu-gallery img {
-        height: 400px;
+        height: auto !important;
+        object-fit: contain;
     }
 
     .menu-gallery img:nth-child(1),
