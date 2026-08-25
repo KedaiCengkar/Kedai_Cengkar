@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Cengkar</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar start-->
+     
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="img/navbar-logo.png" alt="Logo">
+            Kedai<span>Cengkar</span>.
+        </a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#paket">Paket Acara</a>
+            <a href="#video">Video</a>
+            <a href="#news">Berita</a>
+            <a href="#jadwal">Jadwal Band</a>
+            <a href="#contact">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+
+        <!-- Search From Start -->
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search From End -->
+
+    </nav>
+
+    <!-- Navbar end-->
+
+    <!-- Hero Section start -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Selamat Datang Di Kedai <span>Cengkar</span></h1>
+            <p>Jl. Sirnagalih, Sirnagalih, Kecamaten Cipeundeuy, Kabupaten Bandung Barat, Jawa Barat 40558</p>
+    
+            <div class="hero-hours">
+                <i data-feather="clock"></i>
+                <span>Senin–Jumat 07.00–21.00 &bull; Sabtu–Minggu 07.00–22.00</span>
+            </div>
+    
+            <a href="#menu" class="cta">
+                Lihat Menu
+            </a>
+        </main>
+    </section>
+
+    <!-- Hero Section end -->
+
+    <!-- About Section Start -->
+<section id="about" class="about">
+    <div class="about-decor about-decor-1"></div>
+    <div class="about-decor about-decor-2"></div>
+ 
+    <h2><span>Tentang</span> Kami</h2>
+ 
+    <div class="about-wrap">
+        <h3 class="about-title reveal">Lebih dari sekadar<br><span>tempat ngopi</span></h3>
+ 
+        <p class="about-desc reveal reveal-delay-1">Di Kedai Cengkar, secangkir kopi ditemani suasana hangat dan alunan musik akustik yang bikin betah berlama-lama. Kami racik setiap kopi dengan sepenuh hati, bukan sekadar pengusir kantuk, tapi teman untuk berhenti sejenak dan menikmati momen. Dari ngopi santai sendirian sampai live music tiap akhir pekan, Kedai Cengkar adalah tempat yang pas untuk berkumpul dan bercerita.</p>
+ 
+        <div class="about-info-grid">
+            <div class="about-info-card reveal reveal-delay-1">
+                <div class="about-info-icon"><i data-feather="clock"></i></div>
+                <p class="about-info-title">Jam Buka</p>
+                <p class="about-info-text">Senin – Jumat: 07.00 – 21.00<br>Sabtu – Minggu: 07.00 – 22.00</p>
+            </div>
+ 
+            <div class="about-info-card reveal reveal-delay-2">
+                <div class="about-info-icon"><i data-feather="eye"></i></div>
+                <p class="about-info-title">Pemandangan</p>
+                <p class="about-info-text">Nikmati pemandangan langsung Waduk Cirata dari kedai</p>
+            </div>
+        </div>
+ 
+        <div class="about-rating reveal reveal-delay-2">
+            <div class="about-rating-left">
+                <div class="about-info-icon"><i data-feather="star"></i></div>
+                <div>
+                    <p class="about-info-title">Rating Kedai</p>
+                    <p class="about-info-text">Berdasarkan ulasan pelanggan</p>
+                </div>
+            </div>
+            <div class="about-rating-right">
+                <p class="about-rating-number">4.4</p>
+                <p class="about-info-text">341 ulasan</p>
+            </div>
+        </div>
+ 
+        <div class="about-badge reveal reveal-delay-3">
+            <i data-feather="check-circle"></i>
+            <span>100% Kopi Asli</span>
+        </div>
+    </div>
+</section>
+
+     <!-- Video Documentation Section Start -->
+     <section id="video" class="video-section">
+        <h2><span>Dokumentasi</span> Video</h2>
+        <p>Live music dan kegiatan seru di Kedai Cengkar, terekam dalam video-video berikut.</p>
+    
+        <div class="video-gallery">
+            <div class="video-thumb reveal" data-video="video/signature_cappucino.mp4">
+                <video class="thumb-video" muted preload="metadata">
+                    <source src="video/signature_cappucino.mp4#t=0.5" type="video/mp4">
+                </video>
+                <div class="play-icon"><i data-feather="play"></i></div>
+            </div>
+    
+            <div class="video-thumb reveal" data-video="video/cengkar_view.mp4">
+                <video class="thumb-video" muted preload="metadata">
+                    <source src="video/cengkar_view.mp4" type="video/mp4">
+                </video>
+                <div class="play-icon"><i data-feather="play"></i></div>
+            </div>
+    
+            <div class="video-thumb reveal" data-video="video/cengkar_moment.mp4">
+                <video class="thumb-video" muted preload="metadata">
+                    <source src="video/cengkar_moment.mp4#t=0.5" type="video/mp4">
+                </video>
+                <div class="play-icon"><i data-feather="play"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Documentation Section End -->
+     <!-- Pricing Section Start -->
+<section id="paket" class="paket">
+    <h2><span>Paket</span> Acara</h2>
+    <p>Sewa Kedai Cengkar untuk acara intimate wedding dan momen spesial kamu.</p>
+ 
+    <div class="paket-grid">
+        <div class="paket-card reveal">
+            <div class="paket-icon"><i data-feather="calendar"></i></div>
+            <h3>Hari Biasa</h3>
+            <p class="paket-sub">Senin – Jumat</p>
+            <p class="paket-price">Rp 10.000.000</p>
+            <ul class="paket-list">
+                <li><i data-feather="check"></i> Sewa tempat full venue</li>
+                <li><i data-feather="check"></i> Dekorasi dasar</li>
+                <li><i data-feather="check"></i> Kapasitas intimate</li>
+            </ul>
+        </div>
+ 
+        <div class="paket-card paket-highlight reveal reveal-delay-1">
+            <div class="paket-badge">Populer</div>
+            <div class="paket-icon"><i data-feather="calendar"></i></div>
+            <h3>Weekend</h3>
+            <p class="paket-sub">Sabtu – Minggu</p>
+            <p class="paket-price">Rp 15.000.000</p>
+            <ul class="paket-list">
+                <li><i data-feather="check"></i> Sewa tempat full venue</li>
+                <li><i data-feather="check"></i> Dekorasi dasar</li>
+                <li><i data-feather="check"></i> Kapasitas intimate</li>
+            </ul>
+        </div>
+ 
+        <div class="paket-card reveal reveal-delay-2">
+            <div class="paket-icon"><i data-feather="speaker"></i></div>
+            <h3>Tambahan Sound System</h3>
+            <p class="paket-sub">Add-on paket</p>
+            <p class="paket-price">Rp 2.000.000</p>
+            <ul class="paket-list">
+                <li><i data-feather="check"></i> Satu paket sound lengkap</li>
+                <li><i data-feather="check"></i> Cocok untuk live music</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Pricing Section End -->
+
+     <!-- News Section Start -->
+     <section id="news" class="news">
+        <h2><span>Berita</span> & Acara</h2>
+        <p>Kabar terbaru seputar acara dan kegiatan di Kedai Cengkar.</p>
+    
+        <div class="news-grid" id="news-grid">
+            <!-- Diisi otomatis dari js/data.js -->
+        </div>
+    </section>
+    <!-- News Section End -->
+    
+    <!-- Band Schedule Section Start -->
+    <section id="jadwal" class="jadwal">
+        <h2><span>Jadwal</span> Band</h2>
+        <p>Live music tiap akhir pekan, cek jadwalnya di bawah ini.</p>
+    
+        <div class="jadwal-list" id="jadwal-list">
+            <!-- Diisi otomatis dari js/data.js -->
+        </div>
+    </section>
+    <!-- Band Schedule Section End -->
+
+    <!-- Contact Section Start-->
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Ada pertanyaan, saran, atau mau reservasi tempat buat nonton live music? Isi form di bawah ini atau langsung datang ke kedai kami.</p>
+    
+        <div class="row">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.518151459847!2d107.35829037403231!3d-6.706434465566005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6901670dbffa69%3A0xe8be76a03adfa599!2sKedai%20cengkar!5e0!3m2!1sid!2sid!4v1787212638966!5m2!1sid!2sid"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                class="map">
+            </iframe>
+    
+            <form action="">
+                <div class="input-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+    
+                <div class="input-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+    
+                <div class="input-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="no hp">
+                </div>
+    
+                <button type="submit" class="btn">kirim pesan</button>
+            </form>
+        </div>
+    </section>
+
+     <!-- Contact Section End-->
+
+     <!-- Foother Start -->
+     <footer>
+        <div class="socials">
+            <a href="https:www.instagram.com/kedai_cengkar?igsi=MWNoYmhxNDh6bHNxNa" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <i data-feather="instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@kedai_cengkar?_r=1&_t=ZS-993ifx1b553" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <svg class="tiktok-icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100083133977927" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <i data-feather="facebook"></i>
+            </a>
+        </div>
+
+        <div class="links">
+            <a href="#home"></a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#paket">Paket Acara</a>
+            <a href="#video">Video</a>
+            <a href="#news">Berita & Acara</a>
+            <a href="#jadwal">Jadwal Band</a>
+            <a href="#contact">Kontak Kami</a>
+        </div>
+        
+        <div class="credit">
+            <p>Created by <a href="">Kedai Cengkar</a>&copy; 2026.</p>
+        </div>
+    </footer>
+    
+     <!-- Foother End --> 
+    
+    <!-- Feather Icons -->
+
+    <script>
+        feather.replace()
+      </script>
+
+      <!-- My Javascript -->
+      <script src="js/data.js"></script>
+      <script src="js/render-data.js"></script>
+      <script src="js/script.js"></script>
+
+</body>
+
+</html>
